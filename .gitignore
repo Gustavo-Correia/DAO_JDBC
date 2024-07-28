@@ -23,5 +23,10 @@
 hs_err_pid*
 replay_pid*
 
+<<<<<<< HEAD
 #database files
 .properties
+=======
+#Data_base files
+.properties
+>>>>>>> 12c138a5a3a72ab233ff9636e65e6b7a4759ec22
