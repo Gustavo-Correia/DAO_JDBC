@@ -33,6 +33,14 @@ public static void main(String[] args) {
     for (Seller seller2 : list) {
         System.out.println(seller2);
     }
+
+    System.out.println("=== TESTE3: seller findall =====");
+
+    list = sellerDao.findAll();
+
+    for (Seller seller2 : list) {
+        System.out.println(seller2);
+    }
 }
      
 }
