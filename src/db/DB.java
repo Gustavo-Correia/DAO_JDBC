@@ -38,7 +38,7 @@ public class DB {
     }
 
     private static Properties loadProperties(){
-        try(FileInputStream fs = new FileInputStream("C:\\CodeBase_Java\\JDBC_Mysql\\applicationJDBC5\\db.properties")){
+        try(FileInputStream fs = new FileInputStream("C:\\CodeBase_Java\\JDBC_Mysql\\DAO_JDBC\\db.properties")){
             Properties props = new Properties();
             props.load(fs);
             return props;
